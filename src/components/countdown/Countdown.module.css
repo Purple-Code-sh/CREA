@@ -1,0 +1,155 @@
+/* styles.css */
+@keyframes themeGlow {
+  0% {
+    text-shadow: 0 0 2px #db7c00, /* primary */ 0 0 4px #db7c00, 0 0 6px #db7c00;
+  }
+
+  3.33% {
+    text-shadow: 0 0 2px #e4007c, /* accent */ 0 0 4px #e4007c, 0 0 6px #e4007c;
+  }
+
+  6.67% {
+    text-shadow: 0 0 2px #380042, /* bg_purple */ 0 0 4px #380042,
+      0 0 6px #380042;
+  }
+
+  10% {
+    text-shadow: 0 0 2px #feea00, /* secondary */ 0 0 4px #feea00,
+      0 0 6px #feea00;
+  }
+
+  13.33% {
+    text-shadow: 0 0 2px #a6037a, /* accent_dark */ 0 0 4px #a6037a,
+      0 0 6px #a6037a;
+  }
+
+  16.67% {
+    text-shadow: 0 0 2px #8c5a2e, /* primary_dark */ 0 0 4px #8c5a2e,
+      0 0 6px #8c5a2e;
+  }
+
+  20% {
+    text-shadow: 0 0 2px #602f35, /* bg_accent_light */ 0 0 4px #602f35,
+      0 0 6px #602f35;
+  }
+
+  23.33% {
+    text-shadow: 0 0 2px #40e0d0, /* Turquoise */ 0 0 4px #40e0d0,
+      0 0 6px #40e0d0;
+  }
+
+  26.67% {
+    text-shadow: 0 0 2px #ffd700, /* Gold */ 0 0 4px #ffd700, 0 0 6px #ffd700;
+  }
+
+  30% {
+    text-shadow: 0 0 2px #ff69b4, /* Hot Pink */ 0 0 4px #ff69b4,
+      0 0 6px #ff69b4;
+  }
+
+  33.33% {
+    text-shadow: 0 0 2px #1e90ff, /* Dodger Blue */ 0 0 4px #1e90ff,
+      0 0 6px #1e90ff;
+  }
+
+  36.67% {
+    text-shadow: 0 0 2px #98fb98, /* Pale Green */ 0 0 4px #98fb98,
+      0 0 6px #98fb98;
+  }
+
+  40% {
+    text-shadow: 0 0 2px #ff4500, /* Orange Red */ 0 0 4px #ff4500,
+      0 0 6px #ff4500;
+  }
+
+  43.33% {
+    text-shadow: 0 0 2px #8a2be2, /* Blue Violet */ 0 0 4px #8a2be2,
+      0 0 6px #8a2be2;
+  }
+
+  46.67% {
+    text-shadow: 0 0 2px #adff2f, /* Green Yellow */ 0 0 4px #adff2f,
+      0 0 6px #adff2f;
+  }
+
+  50% {
+    text-shadow: 0 0 2px #ff6347, /* Tomato */ 0 0 4px #ff6347, 0 0 6px #ff6347;
+  }
+
+  53.33% {
+    text-shadow: 0 0 2px #00ced1, /* Dark Turquoise */ 0 0 4px #00ced1,
+      0 0 6px #00ced1;
+  }
+
+  56.67% {
+    text-shadow: 0 0 2px #da70d6, /* Orchid */ 0 0 4px #da70d6, 0 0 6px #da70d6;
+  }
+
+  60% {
+    text-shadow: 0 0 2px #ffdab9, /* Peach Puff */ 0 0 4px #ffdab9,
+      0 0 6px #ffdab9;
+  }
+
+  63.33% {
+    text-shadow: 0 0 2px #ffb6c1, /* Light Pink */ 0 0 4px #ffb6c1,
+      0 0 6px #ffb6c1;
+  }
+
+  66.67% {
+    text-shadow: 0 0 2px #9400d3, /* Dark Violet */ 0 0 4px #9400d3,
+      0 0 6px #9400d3;
+  }
+
+  70% {
+    text-shadow: 0 0 2px #7fffd4, /* Aquamarine */ 0 0 4px #7fffd4,
+      0 0 6px #7fffd4;
+  }
+
+  73.33% {
+    text-shadow: 0 0 2px #ffff00, /* Yellow */ 0 0 4px #ffff00, 0 0 6px #ffff00;
+  }
+
+  76.67% {
+    text-shadow: 0 0 2px #ff8c00, /* Dark Orange */ 0 0 4px #ff8c00,
+      0 0 6px #ff8c00;
+  }
+
+  80% {
+    text-shadow: 0 0 2px #ba55d3, /* Medium Orchid */ 0 0 4px #ba55d3,
+      0 0 6px #ba55d3;
+  }
+
+  83.33% {
+    text-shadow: 0 0 2px #00ff7f, /* Spring Green */ 0 0 4px #00ff7f,
+      0 0 6px #00ff7f;
+  }
+
+  86.67% {
+    text-shadow: 0 0 2px #dc143c, /* Crimson */ 0 0 4px #dc143c, 0 0 6px #dc143c;
+  }
+
+  90% {
+    text-shadow: 0 0 2px #6495ed, /* Cornflower Blue */ 0 0 4px #6495ed,
+      0 0 6px #6495ed;
+  }
+
+  96.67% {
+    text-shadow: 0 0 2px #ff1493, /* Deep Pink */ 0 0 4px #ff1493,
+      0 0 6px #ff1493;
+  }
+
+  100% {
+    text-shadow: 0 0 2px #db7c00, /* Vuelve al primary */ 0 0 4px #db7c00,
+      0 0 6px #db7c00;
+  }
+}
+
+.animateGlow {
+  animation: themeGlow 30s linear infinite;
+}
+
+.neonEffect {
+  /* Usa el color primario, pero más oscuro */
+  text-shadow: 0 0 1px #8c5a2e, 0 0 2px #8c5a2e, 0 0 3px #a6037a,
+    0 0 4px #a6037a;
+}

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-shPurple-400: #400640;
   --color-shPurple-500: #380042;
   --color-shAccent-400: #602f35;
@@ -9,10 +9,10 @@
   --color-txt_white: #fefadc;
   --color-txt_white_p: #f2c9f0;
   --color-primary-500: #db7c00;
-  --color-primary_600: #8c5a2e;
+  --color-primary-600: #8c5a2e;
   --color-secondary: #feea00;
   --color-accent-500: #e4007c;
-  --color-accent_600: #a6037a;
+  --color-accent-600: #a6037a;
 
   --font-didact: "Didact Gothic", sans-serif;
   --font-zen: "Zen Dots", sans-serif;
@@ -37,4 +37,11 @@ body {
   font-family: "Didact Gothic", ui-sans-serif, system-ui,
     sans-serif "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji", -apple-system;
+}
+
+* {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  scroll-behavior: smooth;
 }
