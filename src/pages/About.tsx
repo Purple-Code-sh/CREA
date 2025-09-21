@@ -1,0 +1,11 @@
+function About() {
+  return (
+    <>
+      <h1 className="text-purple-500 text-5xl font-bold text-center w-full">
+        About Page
+      </h1>
+    </>
+  );
+}
+
+export default About;

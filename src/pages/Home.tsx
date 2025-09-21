@@ -1,4 +1,4 @@
-function App() {
+function Home() {
   return (
     <>
       <h1 className="text-purple-500 text-5xl font-bold text-center w-full">
@@ -8,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
