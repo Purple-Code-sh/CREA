@@ -29,7 +29,7 @@ function Home() {
                 Xmas
               </span>{" "}
               <span className="bg-clip-text text-transparent font-extrabold bg-gradient-to-tr from-accent-500 to-secondary">
-                2024
+                2025
               </span>
             </h1>
             <h3 className="w-full mt-3 text-center font-didact font-semibold text-xs text-primary-600 md:mt-4 md:text-sm lg:mt-6 lg:text-base xl:mt-8 xl:text-lg">
@@ -39,9 +39,11 @@ function Home() {
               </h4>
             </h3>
             <div className="flex flex-col gap-8 lg:gap-12 w-fit my-8 mx-auto text-center font-medium md:flex-row md:text-lg md:mt-12 xl:text-xl xl:mt-16">
-              <button className="cursor-pointer p-3 min-w-[250px] text-center h-fit rounded-lg text-black  bg-primary-500 hover:bg-secondary/85 hover:scale-105">
-                <Link to="/CREA/xmas">Inscribete</Link>
-              </button>
+              <Link to="/CREA/xmas">
+                <button className="cursor-pointer p-3 min-w-[250px] text-center h-fit rounded-lg text-black  bg-primary-500 hover:bg-secondary/85 hover:scale-105">
+                  Inscribete
+                </button>
+              </Link>
 
               <button
                 className="cursor-pointer p-3 min-w-[250px] text-center h-fit rounded-lg text-txt_white_p/60  bg-shAccent-600 hover:bg-accent-500/85 hover:scale-105"

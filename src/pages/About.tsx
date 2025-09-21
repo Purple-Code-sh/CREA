@@ -11,7 +11,7 @@ function About() {
         <section className="bg-gradient-to-l h-fit from-black/70 via-transparent to-black/70">
           <Navbar />
           <main className="container max-w-7xl pt-24 sm:pt-28 md:pt-32 lg:pt-36 pb-16">
-            <h1 className="text-4xl font-medium  text-center font-zen text-white/90 my-10 md:my-12 xl:my-16">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium  text-center font-zen text-white/90 my-10 md:my-12 xl:my-16">
               Club de Robótica ESIME Azcapotzalco
             </h1>
             <div className="flex flex-col-reverse gap-12 pb-8 md:flex-row md:justify-between text-white/90 items-center justify-center ">
@@ -32,7 +32,7 @@ function About() {
                 <img
                   src="/CREA/favicon_alt-full.webp"
                   alt="nuestro logo"
-                  className="w-full h-auto max-w-52 mx-auto"
+                  className="w-full h-auto md:max-w-48 max-w-40 lg:max-w-52 mx-auto"
                 />
               </div>
             </div>

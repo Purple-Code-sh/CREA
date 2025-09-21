@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className=" backdrop-blur-xl absolute top-0 z-50 w-full py-2 md:py-4">
       <section className="flex items-center justify-between container max-w-7xl">
         <div>
-          <NavLink to="/CREA/">
+          <NavLink to="/CREA/inicio">
             <img
               src="/CREA/favicon_alt.webp"
               alt="logo"
@@ -14,7 +14,7 @@ export default function Navbar() {
             />
           </NavLink>
 
-          <NavLink to="/CREA/">
+          <NavLink to="/CREA/inicio">
             <img
               src="/CREA/favicon_alt-full.webp"
               alt="logo"
@@ -25,7 +25,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center justify-center gap-6 sm:gap-8 lg:gap-12 text-xs sm:text-sm lg:text-base font-medium">
           <NavLink
-            to="/CREA/"
+            to="/CREA/inicio"
             className={({ isActive }) =>
               isActive ? "text-txt_white_p" : "text-txt_white hover:underline"
             }

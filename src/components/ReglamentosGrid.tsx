@@ -102,7 +102,7 @@ const ReglamentosGrid: React.FC = () => {
   return (
     <div className="bg-shAccent-500/25 rounded-xl w-full p-4 sm:p-6 lg:p-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-medium text-center font-zen text-white mb-10 md:mb-12 xl:mb-16">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-center font-zen text-white mb-10 md:mb-12 xl:mb-16">
           Reglamentos por Categoría
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

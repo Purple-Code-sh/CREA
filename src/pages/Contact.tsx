@@ -11,12 +11,12 @@ function Contact() {
         <section className="bg-gradient-to-l h-fit from-black/70 via-transparent to-black/70">
           <Navbar />
           <main className="container max-w-7xl pt-24 sm:pt-28 md:pt-32 lg:pt-36 min-h-[80vh]">
-            <h1 className="text-4xl font-medium  text-center font-zen text-white/90 my-10 md:my-12 xl:my-16">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium  text-center font-zen text-white/90 my-10 md:my-12 xl:my-16">
               Club de Robótica ESIME Azcapotzalco
             </h1>
 
             <div className="flex gap-6  my-10 md:my-12 xl:my-16 items-baseline">
-              <h2 className="text-2xl lg:text-3xl font-medium  text-center font-zen text-white/90">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-medium  text-center font-zen text-white/90">
                 Instagram:
               </h2>
               <a
@@ -29,7 +29,7 @@ function Contact() {
             </div>
 
             <div className="flex gap-6  my-10 md:my-12 xl:my-16 items-baseline">
-              <h2 className="text-2xl lg:text-3xl font-medium  text-center font-zen text-white/90">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-medium  text-center font-zen text-white/90">
                 Facebook:
               </h2>
               <a
@@ -42,7 +42,7 @@ function Contact() {
             </div>
 
             <div className="flex gap-6  my-10 md:my-12 xl:my-16 items-baseline">
-              <h2 className="text-2xl lg:text-3xl font-medium  text-center font-zen text-white/90">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-medium  text-center font-zen text-white/90">
                 Dirección:
               </h2>
               <a

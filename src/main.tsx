@@ -11,6 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Routes>
       <Route path="CREA">
         <Route index element={<Home />} />
+        <Route path="inicio" element={<Home />} />
         <Route path="contacto" element={<Contact />} />
         <Route path="sobre-nosotros" element={<About />} />
         <Route path="xmas" element={<Xmas />} />

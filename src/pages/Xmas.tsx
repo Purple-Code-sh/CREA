@@ -52,7 +52,7 @@ function Xmas() {
           id="rules"
           className=" container max-w-7xl pt-20 md:pt-24 lg:pt-28 font-didacte flex flex-col justify-center pb-10"
         >
-          <h2 className="text-4xl font-medium text-center font-zen text-white mb-10 md:mb-12 xl:mb-16">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-center font-zen text-white mb-10 md:mb-12 xl:mb-16">
             Ubicación del evento
           </h2>
           <div className="flex justify-center items-center rounded-xl">
