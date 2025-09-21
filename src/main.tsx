@@ -9,10 +9,12 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
     <Routes>
-      <Route index element={<Home />} />
-      <Route path="contacto" element={<Contact />} />
-      <Route path="sobre-nosotros" element={<About />} />
-      <Route path="xmas" element={<Xmas />} />
+      <Route path="CREA">
+        <Route index element={<Home />} />
+        <Route path="contacto" element={<Contact />} />
+        <Route path="sobre-nosotros" element={<About />} />
+        <Route path="xmas" element={<Xmas />} />
+      </Route>
     </Routes>
   </BrowserRouter>
 );

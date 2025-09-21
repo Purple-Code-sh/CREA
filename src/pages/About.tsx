@@ -30,7 +30,7 @@ function About() {
               </div>
               <div className="w-full md:w-6/12">
                 <img
-                  src="/favicon_alt-full.webp"
+                  src="/CREA/favicon_alt-full.webp"
                   alt="nuestro logo"
                   className="w-full h-auto max-w-52 mx-auto"
                 />

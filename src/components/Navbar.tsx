@@ -5,18 +5,18 @@ export default function Navbar() {
     <nav className=" backdrop-blur-xl absolute top-0 z-50 w-full py-2 md:py-4">
       <section className="flex items-center justify-between container max-w-7xl">
         <div>
-          <NavLink to="/">
+          <NavLink to="/CREA/">
             <img
-              src="/favicon_alt.webp"
+              src="/CREA/favicon_alt.webp"
               alt="logo"
               title="Home"
               className="w-10 h-auto sm:hidden cursor-pointer"
             />
           </NavLink>
 
-          <NavLink to="/">
+          <NavLink to="/CREA/">
             <img
-              src="/favicon_alt-full.webp"
+              src="/CREA/favicon_alt-full.webp"
               alt="logo"
               title="Home"
               className="w-12 lg:w-16 h-auto sm:block hidden cursor-pointer"
@@ -25,7 +25,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center justify-center gap-6 sm:gap-8 lg:gap-12 text-xs sm:text-sm lg:text-base font-medium">
           <NavLink
-            to="/"
+            to="/CREA/"
             className={({ isActive }) =>
               isActive ? "text-txt_white_p" : "text-txt_white hover:underline"
             }
@@ -34,7 +34,7 @@ export default function Navbar() {
           </NavLink>
 
           <NavLink
-            to="/sobre-nosotros"
+            to="/CREA/sobre-nosotros"
             className={({ isActive }) =>
               isActive ? "text-txt_white_p" : "text-txt_white hover:underline"
             }
@@ -43,7 +43,7 @@ export default function Navbar() {
           </NavLink>
 
           <NavLink
-            to="/contacto"
+            to="/CREA/contacto"
             className={({ isActive }) =>
               isActive ? "text-txt_white_p" : "text-txt_white hover:underline"
             }

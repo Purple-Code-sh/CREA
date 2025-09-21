@@ -40,7 +40,7 @@ function Home() {
             </h3>
             <div className="flex flex-col gap-8 lg:gap-12 w-fit my-8 mx-auto text-center font-medium md:flex-row md:text-lg md:mt-12 xl:text-xl xl:mt-16">
               <button className="cursor-pointer p-3 min-w-[250px] text-center h-fit rounded-lg text-black  bg-primary-500 hover:bg-secondary/85 hover:scale-105">
-                <Link to="/xmas">Inscribete</Link>
+                <Link to="/CREA/xmas">Inscribete</Link>
               </button>
 
               <button
@@ -52,7 +52,7 @@ function Home() {
             </div>
             <div className="mx-auto text-center mb-20 md:mb-24 xl:mb-28">
               <Link
-                to="/xmas"
+                to="/CREA/xmas"
                 className="w-full px-10 py-2 underline cursor-pointer text-accent-600 opacity-60  hover:opacity-100 active:text-secondary  text-center font-semibold text-xs md:mt-4 md:text-sm lg:mt-6 lg:text-base xl:mt-8 xl:text-lg"
               >
                 Más información

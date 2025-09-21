@@ -41,7 +41,7 @@ function Xmas() {
           <section className="w-full lg:w-1/2 flex items-center justify-between">
             <img src={snowMan} alt="" className="w-1/2 max-w-72 mx-auto" />
             <img
-              src="/favicon_alt-full.webp"
+              src="/CREA/favicon_alt-full.webp"
               alt=""
               className="w-1/3 max-w-52 mx-auto"
             />
