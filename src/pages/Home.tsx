@@ -8,6 +8,7 @@ import partner1 from "../assets/partner_1.webp";
 import partner2 from "../assets/partner_2.webp";
 import partner3 from "../assets/partner_3.webp";
 import partner4 from "../assets/partner_4.webp";
+import Footer from "../components/Footer";
 
 function Home() {
   const joke = () => {
@@ -39,7 +40,7 @@ function Home() {
             </h3>
             <div className="flex flex-col gap-8 lg:gap-12 w-fit my-8 mx-auto text-center font-medium md:flex-row md:text-lg md:mt-12 xl:text-xl xl:mt-16">
               <button className="cursor-pointer p-3 min-w-[250px] text-center h-fit rounded-lg text-black  bg-primary-500 hover:bg-secondary/85 hover:scale-105">
-                <Link to="/creaWebPage-ViteReactTailwind/xmas">Inscribete</Link>
+                <Link to="/xmas">Inscribete</Link>
               </button>
 
               <button
@@ -123,6 +124,8 @@ function Home() {
       >
         <ReglamentosGrid />
       </section>
+
+      <Footer />
     </>
   );
 }
