@@ -62,7 +62,7 @@ const regulationsData: Regulation[] = [
   },
 ];
 
-const getCategoryIcon = (name: string): JSX.Element | null => {
+const getCategoryIcon = (name: string) => {
   const lowerCaseName = name.toLowerCase();
   if (lowerCaseName.includes("sumo")) {
     return <FaRobot className="w-10 h-10 mb-4 text-slate-300" />;

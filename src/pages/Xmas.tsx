@@ -8,60 +8,7 @@ import partner2 from "../assets/partner_2.webp";
 import partner3 from "../assets/partner_3.webp";
 import partner4 from "../assets/partner_4.webp";
 
-import { Link } from "react-router";
-
 function Xmas() {
-  const categoriesArray = [
-    {
-      name: "Minisumo autónomo profesional",
-      link: "https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl",
-    },
-    {
-      name: "Minisumo RC profesional",
-      link: "https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl",
-    },
-    {
-      name: "Minisumo autónomo amateur",
-      link: "https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl",
-    },
-    {
-      name: "Minisumo RC amateur",
-      link: "https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl",
-    },
-    {
-      name: "Microsumo",
-      link: "https://docs.google.com/document/d/1Zd5_bKdkOZDldijVbBp4a5fnF_jPxZENVx-3VbZYtbQ/edit#heading=h.lrxxfbed5gkl",
-    },
-    {
-      name: "Midisumo",
-      link: "https://docs.google.com/document/d/1cIoabS2r8yPsKuxU3GErV-bnoNiSVQJP2PMdBAeiTRM/edit?usp=sharing",
-    },
-    {
-      name: "Seguidor de línea profesional",
-      link: "https://docs.google.com/document/d/1Rf05I65rkRRZ-yZVycBUTn5rYrbeFq3orRDf3bm4B-w/edit#heading=h.32gsyl5eo0v1",
-    },
-    {
-      name: "Seguidor de línea amateur",
-      link: "https://docs.google.com/document/d/1Rf05I65rkRRZ-yZVycBUTn5rYrbeFq3orRDf3bm4B-w/edit#heading=h.32gsyl5eo0v1",
-    },
-    {
-      name: "Guerra 1 lb",
-      link: "https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f",
-    },
-    {
-      name: "Guerra 3 lb",
-      link: "https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f",
-    },
-    {
-      name: "Guerra 12 lb",
-      link: "https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f",
-    },
-    {
-      name: "Robosoccer",
-      link: "https://docs.google.com/document/d/1An3iLLKc9C9CeJBwyR-7pms6LVJqUl4SOI4Y18ReCD8/edit",
-    },
-  ];
-
   return (
     <>
       <section className="bg-gradient-to-b from-shAccent-600/50 to-black via-shAccent-600/30">
