@@ -100,7 +100,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ name, link }) => {
 
 const ReglamentosGrid: React.FC = () => {
   return (
-    <div className="bg-shPurple-500/40 rounded-xl w-full p-4 sm:p-6 lg:p-8">
+    <div className="bg-shAccent-500/25 rounded-xl w-full p-4 sm:p-6 lg:p-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-medium text-center font-zen text-white mb-10 md:mb-12 xl:mb-16">
           Reglamentos por Categoría

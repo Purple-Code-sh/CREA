@@ -8,17 +8,17 @@ function About() {
       <section className="bg-gradient-to-l h-fit from-black/70 via-transparent to-black/70">
         <Navbar />
         <main className="container max-w-7xl pt-24 sm:pt-28 md:pt-32 lg:pt-36">
-          <h1 className="text-4xl font-medium  text-center font-zen text-white mb-10 md:mb-12 xl:mb-16">
+          <h1 className="text-4xl font-medium  text-center font-zen text-white/90 my-10 md:my-12 xl:my-16">
             Club de Robótica ESIME Azcapotzalco
           </h1>
-          <div className="flex flex-col-reverse gap-12 md:flex-row md:justify-between items-center justify-center ">
+          <div className="flex flex-col-reverse gap-12 pb-8 md:flex-row md:justify-between text-white/90 items-center justify-center ">
             <div className="w-full md:w-7/12  flex flex-col">
-              <h3 className="text-lg font-bold  md:text-xl  text-center md:text-left text-white xl:text-2xl">
+              <h3 className="text-lg font-bold  md:text-xl  text-center md:text-left  xl:text-2xl">
                 Somos un club dedicado a la creación e innovación de proyectos
                 tecnológicos, con un enfoque en la robótica de competencia.
               </h3>
               <br />
-              <p className="text-lg  md:text-xl  text-center md:text-left text-white xl:text-2xl">
+              <p className="text-lg  md:text-xl  text-center md:text-left  xl:text-2xl">
                 Representamos a nuestra institución participando en diversos
                 torneos, tanto nacionales como internacionales. De igual manera
                 promovemos y educamos sobre tecnología, impartiendo cursos,
