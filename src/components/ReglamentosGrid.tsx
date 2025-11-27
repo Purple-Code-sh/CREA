@@ -32,10 +32,10 @@ const regulationsData: Regulation[] = [
     name: "Microsumo",
     link: "https://docs.google.com/document/d/1Zd5_bKdkOZDldijVbBp4a5fnF_jPxZENVx-3VbZYtbQ/edit#heading=h.lrxxfbed5gkl",
   },
-  {
-    name: "Midisumo",
-    link: "https://docs.google.com/document/d/1cIoabS2r8yPsKuxU3GErV-bnoNiSVQJP2PMdBAeiTRM/edit?usp=sharing",
-  },
+  // {
+  //   name: "Midisumo",
+  //   link: "https://docs.google.com/document/d/1cIoabS2r8yPsKuxU3GErV-bnoNiSVQJP2PMdBAeiTRM/edit?usp=sharing",
+  // },
   {
     name: "Seguidor de línea profesional",
     link: "https://docs.google.com/document/d/1Rf05I65rkRRZ-yZVycBUTn5rYrbeFq3orRDf3bm4B-w/edit#heading=h.32gsyl5eo0v1",
@@ -52,10 +52,10 @@ const regulationsData: Regulation[] = [
     name: "Guerra 3 lb",
     link: "https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f",
   },
-  {
-    name: "Guerra 12 lb",
-    link: "https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f",
-  },
+  // {
+  //   name: "Guerra 12 lb",
+  //   link: "https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f",
+  // },
   {
     name: "Robosoccer",
     link: "https://docs.google.com/document/d/1An3iLLKc9C9CeJBwyR-7pms6LVJqUl4SOI4Y18ReCD8/edit",

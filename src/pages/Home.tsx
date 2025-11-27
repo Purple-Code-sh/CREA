@@ -6,10 +6,11 @@ import { Link } from "react-router";
 // import schedule2 from "../assets/schedule_2.webp";
 import scheduleNew1 from "../assets/NewScheduleDay1.webp";
 import scheduleNew2 from "../assets/NewScheduleDay2.webp";
-import partner1 from "../assets/partner_1.webp";
-import partner2 from "../assets/partner_2.webp";
-import partner3 from "../assets/partner_3.webp";
-import partner4 from "../assets/partner_4.webp";
+import xmasLogo from "../assets/Xmas25logo.webp";
+// import partner1 from "../assets/partner_1.webp";
+// import partner2 from "../assets/partner_2.webp";
+// import partner3 from "../assets/partner_3.webp";
+// import partner4 from "../assets/partner_4.webp";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -68,6 +69,16 @@ function Home() {
         </section>
       </section>
 
+      <section id="schedule" className="container pb-0 pt-5 sm:pt-5 md:pt-5 lg:pt-5 font-didacte">
+        <div className="flex justify-center">
+          <img
+            src={xmasLogo}
+            alt="horario para el primer dia"
+            className="w-full rounded-xl max-w-200"
+          />
+        </div>
+      </section>
+
       <section
         id="schedule"
         className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12 container max-w-7xl pt-24 sm:pt-28 md:pt-32 lg:pt-36 font-didacte"
@@ -88,7 +99,7 @@ function Home() {
         </div>
       </section>
 
-      <section
+      {/* <section
         id="schedule"
         className="grid grid-cols-4 gap-8 md:gap-10 lg:gap-12 container pb-10 max-w-7xl pt-12 sm:pt-16 md:pt-20 lg:pt-24 font-didacte"
       >
@@ -120,7 +131,7 @@ function Home() {
             className="w-full rounded-xl max-w-40"
           />
         </div>
-      </section>
+      </section> */}
 
       <section
         id="rules"
