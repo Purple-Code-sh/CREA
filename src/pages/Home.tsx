@@ -4,6 +4,8 @@ import ReglamentosGrid from "../components/ReglamentosGrid";
 import { Link } from "react-router";
 import schedule1 from "../assets/schedule_1.webp";
 import schedule2 from "../assets/schedule_2.webp";
+import scheduleNew1 from "../assets/schedule_new_1.webp";
+import scheduleNew2 from "../assets/schedule_new_2.webp";
 import partner1 from "../assets/partner_1.webp";
 import partner2 from "../assets/partner_2.webp";
 import partner3 from "../assets/partner_3.webp";
@@ -72,14 +74,14 @@ function Home() {
       >
         <div className="flex justify-center">
           <img
-            src={schedule1}
+            src={scheduleNew1}
             alt="horario para el primer dia"
             className="w-full rounded-xl max-w-md lg:max-w-lg"
           />
         </div>
         <div className="flex justify-center">
           <img
-            src={schedule2}
+            src={scheduleNew2}
             alt="horario para el segundo dia"
             className="w-full rounded-xl max-w-md lg:max-w-lg"
           />
