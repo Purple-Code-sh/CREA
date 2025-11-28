@@ -1,12 +1,14 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router";
 
 import snowMan from "../assets/snowman.webp";
 import ReglamentosGrid from "../components/ReglamentosGrid";
-import partner1 from "../assets/partner_1.webp";
-import partner2 from "../assets/partner_2.webp";
-import partner3 from "../assets/partner_3.webp";
-import partner4 from "../assets/partner_4.webp";
+// import partner1 from "../assets/partner_1.webp";
+// import partner2 from "../assets/partner_2.webp";
+// import partner3 from "../assets/partner_3.webp";
+// import partner4 from "../assets/partner_4.webp";
+import partner5 from "../assets/LOGO_AXM.webp";
 
 function Xmas() {
   return (
@@ -28,14 +30,11 @@ function Xmas() {
             <h3 className="text-xl md:text-2xl lg:text-3xl text-center lg:text-left mt-10 text-primary-500 font-bold">
               4 y 5 de Diciembre ¡No faltes!
             </h3>
-            {/* <div className='mx-auto mt-8 w-fit flex-none text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black bg-primary hover:bg-secondary/85 hover:scale-105'>
-                  <Link
-                    to='https://docs.google.com/forms/d/e/1FAIpQLSdPmPZQSUtVt3pN-Dk3IOiIFgLFZ8DT6pNls18MvjHuOVF6lQ/viewform?usp=sf_link'
-                    className='active:text-white hover:font-semibold cursor-pointer'
-                  >
-                    Inscríbete
-                  </Link>
-                </div> */}
+            <div className="mx-auto mt-8 w-fit flex-none text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black bg-primary hover:bg-secondary/85 hover:scale-105">
+              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdQa7pD2Wje4oZ_lg0XeCrbEMm-Xl6ii3L7uFLF7dOYvnc3MQ/viewform?usp=dialog" className="active:text-white hover:font-semibold cursor-pointer">
+                Inscríbete
+              </Link>
+            </div>
           </section>
 
           <section className="w-full lg:w-1/2 flex items-center justify-between">
@@ -75,18 +74,18 @@ function Xmas() {
           <ReglamentosGrid />
         </section>
 
-        <section
-          id="schedule"
-          className="grid grid-cols-4 gap-8 md:gap-10 lg:gap-12 container pb-10 max-w-7xl pt-12 sm:pt-16 md:pt-20 lg:pt-24 font-didacte"
-        >
+        <section id="schedule" className="grid grid-cols-1 gap-8 md:gap-10 lg:gap-12 container pb-10 max-w-7xl pt-12 sm:pt-16 md:pt-20 lg:pt-24 font-didacte" >
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-center font-zen text-white mb-10 md:mb-12 xl:mb-16">
+            Patrocinadores:
+          </h2>
           <div className="flex justify-center">
             <img
-              src={partner1}
+              src={partner5}
               alt="horario para el primer dia"
               className="w-full rounded-xl max-w-40"
             />
           </div>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <img
               src={partner2}
               alt="horario para el segundo dia"
@@ -106,7 +105,7 @@ function Xmas() {
               alt="horario para el segundo dia"
               className="w-full rounded-xl max-w-40"
             />
-          </div>
+          </div> */}
         </section>
       </section>
       <Footer />
