@@ -27,7 +27,7 @@ export default function Navbar() {
           <NavLink
             to="/CREA/inicio"
             className={({ isActive }) =>
-              isActive ? "text-txt_white_p" : "text-txt_white hover:underline"
+              isActive ? "text-txt_white_p" : "text-txt_white hover:text-accent-500"
             }
           >
             Home
@@ -36,7 +36,7 @@ export default function Navbar() {
           <NavLink
             to="/CREA/sobre-nosotros"
             className={({ isActive }) =>
-              isActive ? "text-txt_white_p" : "text-txt_white hover:underline"
+              isActive ? "text-txt_white_p" : "text-txt_white hover:text-accent-500"
             }
           >
             ¿Quiénes Somos?
@@ -45,7 +45,7 @@ export default function Navbar() {
           <NavLink
             to="/CREA/contacto"
             className={({ isActive }) =>
-              isActive ? "text-txt_white_p" : "text-txt_white hover:underline"
+              isActive ? "text-txt_white_p" : "text-txt_white hover:text-accent-500"
             }
           >
             Contacto

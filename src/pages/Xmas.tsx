@@ -28,9 +28,9 @@ function Xmas() {
               lo que se lleva acabo en las instalaciones de la universidad.
             </p>
             <h3 className="text-xl md:text-2xl lg:text-3xl text-center lg:text-left mt-10 text-primary-500 font-bold">
-              4 y 5 de Diciembre ¡No faltes!
+              3 y 4 de Diciembre ¡No faltes!
             </h3>
-            <div className="mx-auto mt-8 w-fit flex-none text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black bg-primary hover:bg-secondary/85 hover:scale-105">
+            <div className="mx-auto mt-8 w-fit flex-none text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-white bg-primary-500 hover:text-black hover:bg-secondary/85 hover:scale-105">
               <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdQa7pD2Wje4oZ_lg0XeCrbEMm-Xl6ii3L7uFLF7dOYvnc3MQ/viewform?usp=dialog" className="active:text-white hover:font-semibold cursor-pointer">
                 Inscríbete
               </Link>
