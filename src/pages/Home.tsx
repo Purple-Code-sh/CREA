@@ -38,7 +38,7 @@ function Home() {
             <h3 className="w-full mt-3 text-center font-didact font-semibold text-xs text-primary-600 md:mt-4 md:text-sm lg:mt-6 lg:text-base xl:mt-8 xl:text-lg">
               Nuestro evento mas importante del año <br />
               <h4 className="mt-1 font-bold text-primary_dark/85">
-                4 y 5 de Diciembre
+                3 y 4 de Diciembre
               </h4>
             </h3>
             <div className="flex flex-col gap-8 lg:gap-12 w-fit my-8 mx-auto text-center font-medium md:flex-row md:text-lg md:mt-12 xl:text-xl xl:mt-16">
